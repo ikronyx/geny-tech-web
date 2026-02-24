@@ -953,7 +953,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: #000000;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -1079,6 +1079,22 @@ a:focus {
     box-shadow 0.3s ease;
 }
 
+.service_box_black {
+  height: 100%;
+  padding: 28px 24px;
+  border-radius: 18px;
+  background: #000000;
+  text-align: center;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06),
+    0 2px 8px rgba(0, 0, 0, 0.04);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
 .service_box:hover {
   transform: translateY(-6px);
   box-shadow:
@@ -1109,9 +1125,22 @@ a:focus {
   color: var(--primary-blue);
 }
 
+.service_box_black h5 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
 .service_box p {
   font-size: 0.9rem;
   color: #555;
+  line-height: 1.6;
+}
+
+.service_box_black p {
+  font-size: 0.9rem;
+  color: #435f59;
   line-height: 1.6;
 }
 
